@@ -1,0 +1,14 @@
+{
+  "name": "nagi",
+  "version": "0.1.0",
+  "type": "module",
+  "description": "JavaScript package downloader written in Go",
+  "main": "./exe.js",
+  "scripts": {
+    "test": "node ./add.js",
+    "postinstall": "node ./add.js"
+  },
+  "bin": "./exe.js",
+  "author": "sugawarayuuta",
+  "license": "MPL-2.0"
+}
